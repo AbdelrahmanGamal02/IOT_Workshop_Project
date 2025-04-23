@@ -49,8 +49,12 @@ This project demonstrates how to use **IoT concepts** and the **MQTT protocol** 
 ### ⚙️ Loop  Function (`Loop ()`)
 
 1. **Publish IR Sensor Status**
+   ```cpp
+   client.publish("Your Topic" , "Your Message");
 
 2. **Control LED Based on Message**
+
+
 
 ## 📚 Required Libraries
 
